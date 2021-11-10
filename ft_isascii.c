@@ -3,24 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gdelarme <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 20:26:30 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/09 20:34:02 by gdelarme         ###   ########.fr       */
+/*   Updated: 2021/11/10 21:18:31 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include"libft.h"
 
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
-	return(c >= 1 && c <= 255);
+	return (c >= 1 && c <= 127);
 }
-/*
-int	main(void)
-{
-	int result;
-
-	result = ft_isascii(256);
-	printf("%d\n", result);
-}*/

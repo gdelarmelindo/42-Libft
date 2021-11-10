@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gdelarme <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/10 20:21:28 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/10 20:57:40 by gdelarme         ###   ########.fr       */
+/*   Created: 2021/11/10 21:07:41 by gdelarme          #+#    #+#             */
+/*   Updated: 2021/11/10 21:11:57 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
 	size_t	i;
 
