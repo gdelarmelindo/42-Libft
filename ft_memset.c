@@ -6,14 +6,14 @@
 /*   By: gdelarme <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 19:32:34 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/10 20:19:26 by gdelarme         ###   ########.fr       */
+/*   Updated: 2021/11/10 20:33:26 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<stdio.h>
 #include<string.h>
 
-int *ft_memset(void *b, int c, size_t len)
+void *ft_memset(void *b, int c, size_t len)
 {
 	size_t	i;
 
