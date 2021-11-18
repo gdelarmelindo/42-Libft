@@ -6,11 +6,11 @@
 /*   By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/15 20:08:38 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/15 20:14:42 by gdelarme         ###   ########.fr       */
+/*   Updated: 2021/11/18 18:27:44 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 int	ft_tolower(int c)
 {

@@ -6,11 +6,11 @@
 /*   By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/15 21:41:49 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/15 22:05:49 by gdelarme         ###   ########.fr       */
+/*   Updated: 2021/11/18 18:27:40 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

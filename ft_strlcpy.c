@@ -6,11 +6,11 @@
 /*   By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 18:08:31 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/12 19:30:03 by gdelarme         ###   ########.fr       */
+/*   Updated: 2021/11/18 18:27:14 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 size_t	ft_strlcpy(char *restrict dst,
 					const char *restrict src,
