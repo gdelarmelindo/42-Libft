@@ -6,7 +6,7 @@
 /*   By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/16 20:25:52 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/18 18:26:17 by gdelarme         ###   ########.fr       */
+/*   Updated: 2021/11/23 22:06:39 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (i < n)

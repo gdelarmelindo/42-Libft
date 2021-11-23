@@ -6,7 +6,7 @@
 /*   By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 17:31:30 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/19 17:16:15 by gdelarme         ###   ########.fr       */
+/*   Updated: 2021/11/23 22:08:23 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ char	*ft_strdup(const char *s1)
 {
 	char	*s2;
 	size_t	len;
-	size_t	j;
 
 	len = ft_strlen(s1);
 	s2 = (char *)malloc(sizeof(*s1) * (len + 1));
