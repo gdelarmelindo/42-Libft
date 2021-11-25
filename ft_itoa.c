@@ -6,7 +6,7 @@
 /*   By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 20:00:12 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/25 20:59:23 by gdelarme         ###   ########.fr       */
+/*   Updated: 2021/11/25 21:02:15 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,11 +80,3 @@ char	*ft_itoa(int n)
 	}
 	return (0);
 }
-/*
-#include <stdio.h> 
-
-int	main(void)
-{
-	printf("%s\n", ft_itoa(-2147483648));
-}
-*/
