@@ -6,7 +6,7 @@
 #    By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 21:35:04 by gdelarme          #+#    #+#              #
-#    Updated: 2021/11/25 20:11:02 by gdelarme         ###   ########.fr        #
+#    Updated: 2021/11/26 18:56:35 by gdelarme         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,7 +39,8 @@ SRCS =  	ft_isalpha.c \
 			ft_strjoin.c \
 			ft_strtrim.c \
 			ft_split.c \
-			ft_itoa.c
+			ft_itoa.c \
+			ft_strmapi.c
 
 OBJS = 		$(SRCS:.c=.o)
 
