@@ -6,7 +6,7 @@
 #    By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 21:35:04 by gdelarme          #+#    #+#              #
-#    Updated: 2021/11/29 18:03:14 by gdelarme         ###   ########.fr        #
+#    Updated: 2021/11/29 18:25:25 by gdelarme         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,8 @@ SRCS =  	ft_isalpha.c \
 OBJS = 		$(SRCS:.c=.o)
 
 BONUS_SRCS = 	ft_lstnew.c \
-				ft_lstadd_front.c
+				ft_lstadd_front.c \
+				ft_lstsize.c
 
 BONUS_OBJS 	= $(BONUS_SRCS:.c=.o)
 
