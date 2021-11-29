@@ -6,7 +6,7 @@
 #    By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 21:35:04 by gdelarme          #+#    #+#              #
-#    Updated: 2021/11/26 20:07:47 by gdelarme         ###   ########.fr        #
+#    Updated: 2021/11/29 16:53:28 by gdelarme         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,6 +49,10 @@ SRCS =  	ft_isalpha.c \
 
 OBJS = 		$(SRCS:.c=.o)
 
+BONUS_SRCS = ft_lstnew.c
+
+BONUS_OBJS 	= $(BONUS_SRCS:.c=.o)
+
 CC =		gcc
 CFLAGS =	-Wall -Wextra -Werror -I.
 RM =        rm -f
@@ -57,6 +61,9 @@ all: $(NAME)
 
 $(NAME): $(OBJS)
 	ar rc $(NAME) $(OBJS)
+
+bonus: $(OBJS) $(BONUS_OBJS) 
+	   ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
 
 clean:
 	$(RM) $(OBJS)
