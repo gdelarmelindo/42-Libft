@@ -6,7 +6,7 @@
 #    By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 21:35:04 by gdelarme          #+#    #+#              #
-#    Updated: 2021/11/29 18:25:25 by gdelarme         ###   ########.fr        #
+#    Updated: 2021/11/29 19:12:44 by gdelarme         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,7 +51,9 @@ OBJS = 		$(SRCS:.c=.o)
 
 BONUS_SRCS = 	ft_lstnew.c \
 				ft_lstadd_front.c \
-				ft_lstsize.c
+				ft_lstsize.c \
+				ft_lstlast.c \
+				ft_lstadd_back.c
 
 BONUS_OBJS 	= $(BONUS_SRCS:.c=.o)
 
@@ -68,7 +70,7 @@ bonus: $(OBJS) $(BONUS_OBJS)
 	   ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
 
 clean:
-	$(RM) $(OBJS)
+	$(RM) $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
 	$(RM) $(NAME)
