@@ -6,7 +6,7 @@
 #    By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 21:35:04 by gdelarme          #+#    #+#              #
-#    Updated: 2021/11/29 19:12:44 by gdelarme         ###   ########.fr        #
+#    Updated: 2021/11/30 21:43:41 by gdelarme         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -53,7 +53,9 @@ BONUS_SRCS = 	ft_lstnew.c \
 				ft_lstadd_front.c \
 				ft_lstsize.c \
 				ft_lstlast.c \
-				ft_lstadd_back.c
+				ft_lstadd_back.c \
+				ft_lstdelone.c \
+				ft_lstclear.c
 
 BONUS_OBJS 	= $(BONUS_SRCS:.c=.o)
 
