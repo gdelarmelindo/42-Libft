@@ -6,7 +6,7 @@
 /*   By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/26 19:40:22 by gdelarme          #+#    #+#             */
-/*   Updated: 2021/11/26 19:44:45 by gdelarme         ###   ########.fr       */
+/*   Updated: 2021/12/02 18:48:30 by gdelarme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	ft_putstr_fd(char *s, int fd)
 	int	i;
 
 	i = 0;
+	if (!s)
+		return ;
 	while (s[i])
 	{
 		write(fd, &s[i], 1);
