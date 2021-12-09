@@ -6,7 +6,7 @@
 #    By: gdelarme <gdelarme@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 21:35:04 by gdelarme          #+#    #+#              #
-#    Updated: 2021/12/01 20:54:05 by gdelarme         ###   ########.fr        #
+#    Updated: 2021/12/09 21:56:43 by gdelarme         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -66,13 +66,16 @@ CC =		gcc
 CFLAGS =	-Wall -Wextra -Werror -I.
 RM =        rm -f
 
+.o.c:
+	@$(CC) $(CFLAGS) -I $(HEADER) -o $@ -c $<
+
 all: $(NAME)
 
 $(NAME): $(OBJS)
 	ar rc $(NAME) $(OBJS)
 
 bonus: $(OBJS) $(BONUS_OBJS) 
-	   ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
+	   ar rcs $(NAME) $(OBJS) $(BONUS_OBJS)
 
 clean:
 	$(RM) $(OBJS) $(BONUS_OBJS)
@@ -81,3 +84,5 @@ fclean: clean
 	$(RM) $(NAME)
 
 re:fclean all
+
+.PHONY: all clean fclean re
