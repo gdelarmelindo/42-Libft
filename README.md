@@ -1,5 +1,7 @@
 # 42 Libft
 
+Libft is the first project of 42 cursus. It required basic knowledge in C and Shell.
+
 ## Part 1 - Lifbt functions
 
 In this first part, were re-coded a set of the libc functions, as defined in their man. The functions needed to present the same prototype and behaviors as the originals. The functions’ names were prefixed by “ft_”. For instance strlen becomes ft_strlen.
